@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	margin: 40px;
+
+}
+
+.menu .menu__link .submenu__link{
+	font: 14px Arial;
+}
+.menu .menu__item{
+	float: left;
+	list-style: none;
+}
+.menu .menu__item a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color: #575757;
+	padding: 10px;
+}
+.menu .menu__link .submenu__link {
+  display: none;
+}
+
+.menu .menu__link .menu__item:hover > .submenu__link {
+  display: block;
+}
